@@ -32,7 +32,7 @@ Client.user.setGame(`SaifDz`,"http://twitch.tv/SaifDz")
 
 
 
-client.login(process.env.BOT_TOKEN);
+Client.login(process.env.BOT_TOKEN);
 
 
 
