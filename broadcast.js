@@ -31,7 +31,8 @@ Client.user.setGame(`SaifDz`,"http://twitch.tv/SaifDz")
 });
 
 
-Client.login('Njc4MjA0MzgwMDE2NjcyNzk5.XkfZdg.mD-S0MiRuoS2hi8iheyShunfr3Y');
+
+client.login(process.env.BOT_TOKEN);
 
 
 
