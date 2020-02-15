@@ -101,7 +101,7 @@ Client.on("message", async message => {
       }
       message.channel
         .send(
-          `**هل أنت متأكد من إرسالك البرودكاست؟nمحتوى البرودكاست **`
+          `**هل أنت متأكد من إرسالك محتوى البرودكاست؟ **`
         )
         .then(m => {
           m.react("✅").then(() => m.react("❌"));
